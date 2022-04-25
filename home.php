@@ -1,3 +1,13 @@
+<?php
+    include './lib/login.php';
+
+    if(isset($_POST['usuario']) && isset($_POST['password'])){
+        $usuario= htmlspecialchars($_POST['usuario']);
+        $password= md5(htmlspecialchars($_POST['password']));
+        login($usuario, $password);
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -26,7 +36,7 @@
     <section class="cabecalho2">
         <h2>Seja bem vindo!</h2>
         <figcaption>
-            <form action="./lib/login.php" method="post">
+            <form action="home.php" method="post">
                 <ul>
                     <li class="botao1">
                         <label for="">Usuário</label>
