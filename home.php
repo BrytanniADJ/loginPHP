@@ -29,7 +29,7 @@
     <section class="cabecalho2">
         <h2>Seja bem vindo!</h2>
         <figcaption>
-            <form action="./lib/login.php" method="$_POST">
+            <form action="./lib/login.php" method="post">
                 <ul>
                     <li class="botao1">
                         <label for="">Usuário</label>

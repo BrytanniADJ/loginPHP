@@ -1,4 +1,6 @@
 <?php
+    include './home.php';
+
         if(isset($_POST['usuario']) && isset($_POST['password'])){
             $usuario= htmlspecialchars($_POST['usuario']);
             $password= htmlspecialchars($_POST['password']);
