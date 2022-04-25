@@ -16,7 +16,7 @@
     <div class="cabecalho">
         <ul class="botoes">
             <li class="click">
-                <a class="voltar" href="./home.html">Voltar ao menú</a>
+                <a class="voltar" href="./home.php">Voltar ao menú</a>
             </li>
         </ul>
     </div>

@@ -16,13 +16,10 @@
     <div class="cabecalho">
         <ul class="botoes">
             <li class="click">
-                <a class="button1" href="#">Home</a>
+                <a class="button2" href="sobre.php">Sobre</a>
             </li>
             <li class="click">
-                <a class="button2" href="sobre.html">Sobre</a>
-            </li>
-            <li class="click">
-                <a class="button3" href="contato.html">Contato</a>
+                <a class="button3" href="contato.php">Contato</a>
             </li>
         </ul>
     </div>
