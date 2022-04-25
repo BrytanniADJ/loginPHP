@@ -57,13 +57,10 @@ h2{
 .button3{
     background-color: #912CEE;
 }
-.button4{
-    background-color: #7D26CD;
-}
 .button1 , .button2 , .button3 , .button4{
     border-radius: 10px;
     color: #ffffff;
-    padding: 10px 100px;
+    padding: 10px 140px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -91,4 +88,35 @@ h2{
 button{
     color: #ffffff;
     background-color: #104E8B;
+}
+
+
+
+
+
+.voltar{
+    background-color: #7D26CD;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.cabecalho_erro{
+    background-color: #3A5FCD;
+    padding-bottom: 83px; /*Mudar aqui com o h2*/
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 5px solid #27408B;
+    text-align: center;
+}
+.erro{
+    margin-top: 80px;
 }
