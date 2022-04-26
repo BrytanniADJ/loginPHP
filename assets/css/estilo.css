@@ -1,3 +1,5 @@
+/* Home.php */
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #009ACD;
@@ -75,15 +77,9 @@ h2{
     display: inline-block;
 }
 .entrar{
-    text-align: left;
-    margin-left: 35px;
-}
-.limpar{
-    margin-left: 467px;
-}
-.entrar , .limpar{
-    display: inline-block;
-    margin-top: 18px;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 57px;
 }
 button{
     color: #ffffff;
@@ -91,9 +87,7 @@ button{
 }
 
 
-
-
-
+/* erro_login.php */
 .voltar{
     background-color: #7D26CD;
     border-radius: 10px;
@@ -108,7 +102,7 @@ button{
 }
 .cabecalho_erro{
     background-color: #3A5FCD;
-    padding-bottom: 83px; /*Mudar aqui com o h2*/
+    padding-bottom: 84px; /*Mudar aqui com o h2*/
     margin-top: 30px;
     margin-left: 120px;
     margin-right: 120px;
@@ -119,4 +113,32 @@ button{
 }
 .erro{
     margin-top: 80px;
+}
+
+
+
+/* Sobre */
+.sobre{
+    font-size: 18px;
+    padding: 20px;
+    padding-top: 32px;
+}
+.jogos{
+    font-size: 18px;
+    padding: 20px;
+    padding-top: 32px;
+}
+.jogos img{
+    max-width:300px;
+    max-height:250px;
+}
+.info{
+    background-color: #3A5FCD;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 5px solid #27408B;
 }

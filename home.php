@@ -40,17 +40,14 @@
                 <ul>
                     <li class="botao1">
                         <label for="">Usuário</label>
-                        <input type="text" name="usuario" id="usuario" placeholder = "Digite seu nome de usuário" required>
+                        <input type="text" name="usuario" id="usuario" placeholder = "Nome de Usuário" required>
                     </li>
                     <li class="botao2">
                         <label for="">Senha</label>
-                        <input type="password" name="password" id="senha">
+                        <input type="password" name="password" id="senha" placeholder = "Senha" required>
                     </li>
                     <li class="entrar">
                         <button type="submit">Entrar</button>
-                    </li>
-                    <li class="limpar">
-                        <button class="limpar" type="reset">Limpar</button>
                     </li>
                 </ul>
             </form>

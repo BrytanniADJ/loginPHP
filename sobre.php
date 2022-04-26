@@ -24,27 +24,36 @@
         </ul>
     </div>
     <section class="cabecalho2">
-        <h2>Seja bem vindo!</h2>
-        <figcaption>
-            <form action="./lib/login.php" method="$_POST">
-                <ul>
-                    <li class="botao1">
-                        <label for="">Usuário</label>
-                        <input type="text" name="usuario" id="usuario" placeholder = "Digite seu nome de usuário" required>
-                    </li>
-                    <li class="botao2">
-                        <label for="">Senha</label>
-                        <input type="password" name="password" id="senha">
-                    </li>
-                    <li class="entrar">
-                        <button type="submit">Entrar</button>
-                    </li>
-                    <li class="limpar">
-                        <button class="limpar" type="reset">Limpar</button>
-                    </li>
-                </ul>
-            </form>
-        </figcaption>
+        <h2>Sobre o site</h2>
+        <div class="sobre">
+          <ul>
+              <li>
+
+                  <a>
+O site é trabalho do meu curso de [Programador Web] do Senac, que agora vou
+usar como um diário do meu jogo, como está o progresso, o que adicionei, o que está e o que não
+está pronto e quem sabe futuramente eu deixe ele online pra poder postar mais projetos
+que vou desenvolver.
+                  </a>
+
+              </li>
+          </ul>
+        </div>
+    </section>
+    <section class="info">
+        <h2>Jogos em desenvolvimento</h2>
+        <div class="jogos">
+          <ul>
+              <li>
+                  <img src="./jogos/eldarya.png">
+                  <p class="jogos_info">
+Uma Fangame inspirado no jogo <a href="https://www.eldarya.com.br">[Eldarya]</a>
+que estou desenvolvendo faz alguns meses por mais que a ideia de criá-lo
+já faça mais de dois anos.
+                  </p>
+              </li>
+          </ul>
+        </div>
     </section>
     </main>
     <footer>
