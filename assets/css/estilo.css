@@ -142,3 +142,23 @@ button{
     border-radius: 20px;
     border: 5px solid #27408B;
 }
+img , .botao_jogo1{
+    display: inline-block;
+    float: left;
+}
+.botao_jogo{
+    background-color: #9370DB;
+    color: #ffffff;
+    padding: 78px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border: 10px solid #27408B;
+}
+.jogos_info{
+    border: 10px solid #27408B;
+    padding: 59px 0px;
+}

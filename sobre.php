@@ -46,6 +46,13 @@ que vou desenvolver.
           <ul>
               <li>
                   <img src="./jogos/eldarya.png">
+                  <div class="botao_jogo1">
+                      <ul>
+                          <li>
+                              <a class="botao_jogo" href="sobre.php">Nueva Eldarya</a>
+                          </li>
+                      </ul>
+                  </div>
                   <p class="jogos_info">
 Uma Fangame inspirado no jogo <a href="https://www.eldarya.com.br">[Eldarya]</a>
 que estou desenvolvendo faz alguns meses por mais que a ideia de criá-lo
